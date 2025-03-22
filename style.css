@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  top: 0;
+  background-color: #fbf7ef;
+}
+
+.header {
+  background-color: #bd8d40;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 16px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.title {
+  margin: 0;
+  flex-grow: 1;
+  font-size: 24px;
+}
+
+.email {
+  width: 24px;
+  height: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
+  margin: 24px auto;
+}
+
+.content-text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #6a3826;
+  height: 64px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-img-container {
+  display: flex;
+  flex-grow: 1;
+  max-width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  gap: 16px;
+}
+
+.footer-logo {
+  height: 32px;
+}
+
+/* Fonts */
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
